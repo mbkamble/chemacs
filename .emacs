@@ -100,6 +100,7 @@
          (custom-file-    (chemacs-emacs-profile-key 'custom-file init-file))
          (server-name-    (chemacs-emacs-profile-key 'server-name)))
     (setq user-emacs-directory emacs-directory)
+    (setq user-init-file init-file)
 
     ;; Allow multiple profiles to each run their server
     ;; use `emacsclient -s profile_name' to connect
